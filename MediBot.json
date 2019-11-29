@@ -198,6 +198,51 @@
 				"body": "?comment",
 				"footer":""
 			}
+		},
+		{
+			"id": 13,
+			"description": "Diz o ICMS para uma localidade",
+			"QPs": ["Qual a carga do ICMS para a localidade $localidade?",
+					"Quanto é o icms em $localidade?",
+					"Quanto tenho de pagar de icms em $localidade?",
+					"Diga o icms em $localidade",
+					"Diga a taxa de ICMS paara produtos em $localidade"],
+			"SP": "PREFIX drugs: <http://www.linkedmed.com.br/ontology/drugs/> \nPREFIX owl: <http://www.w3.org/2002/07/owl#> \nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \nPREFIX xml: <http://www.w3.org/XML/1998/namespace> \nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \nPREFIX dc: <http://purl.org/dc/elements/1.1/>\n\nSELECT DISTINCT ?valor WHERE{\n	?loca a drugs:Localidade;\n		rdfs:label ?local;\n		drugs:cargaICMS ?icms.\n	?icms drugs:cargaTributaria ?valor\n	FILTER(REGEX(STR(?local),$localidade,'i'))\n}",
+			"RP": {
+				"header": "",
+				"body": "?valor %",
+				"footer":""
+			}
+		},
+		{
+			"id": 14,
+			"description": "Diz o ICMS para uma localidade",
+			"QPs": ["Qual é a tarja do medicamento $medicamento?",
+					"Qual a classificação do $medicamento",
+					"Diga a tarja do $medicamento",
+					"O $medicamento pode ser comprado livremente?",
+					"Preciso de de receita para comprar o $medicamento?"],
+			"SP": "PREFIX drugs: <http://www.linkedmed.com.br/ontology/drugs/> \nPREFIX owl: <http://www.w3.org/2002/07/owl#> \nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \nPREFIX xml: <http://www.w3.org/XML/1998/namespace> \nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \nPREFIX dc: <http://purl.org/dc/elements/1.1/>\n\nSELECT DISTINCT ?medicamento_label ?apresentacao ?tipo_tarja ?comment WHERE{\n	?medic a drugs:Medicamento;\n		dc:title ?medicamento_label;\n		drugs:temApresentacao ?aprese.\n	?aprese drugs:tarja ?tarja;\n		dc:title ?apresentacao.\n	?tarja rdfs:label ?tipo_tarja;\n		rdfs:comment ?comment.\n	FILTER(REGEX(STR(?medicamento_label),$medicamento,'i'))\n} ORDER BY ?medicamento_label, ?apresentacao\n",
+			"RP": {
+				"header": "",
+				"body": " O ?medicamento_label ?apresentacao é de classificação ?tipo_tarja. ?comment",
+				"footer":""
+			}
+		},
+		{
+			"id": 15,
+			"description": "Diz o ICMS para uma localidade",
+			"QPs": ["Qual é a tarja do medicamento $medicamento?",
+					"Qual a classificação do $medicamento",
+					"Diga a tarja do $medicamento",
+					"O $medicamento pode ser comprado livremente?",
+					"Preciso de de receita para comprar o $medicamento?"],
+			"SP": "PREFIX drugs: <http://www.linkedmed.com.br/ontology/drugs/> \nPREFIX owl: <http://www.w3.org/2002/07/owl#> \nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \nPREFIX xml: <http://www.w3.org/XML/1998/namespace> \nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \nPREFIX dc: <http://purl.org/dc/elements/1.1/>\n\nSELECT DISTINCT ?medicamento_label ?apresentacao ?tipo_tarja ?comment WHERE{\n	?medic a drugs:Medicamento;\n		dc:title ?medicamento_label;\n		drugs:temApresentacao ?aprese.\n	?aprese drugs:tarja ?tarja;\n		dc:title ?apresentacao.\n	?tarja rdfs:label ?tipo_tarja;\n		rdfs:comment ?comment.\n	FILTER(REGEX(STR(?medicamento_label),$medicamento,'i'))\n} ORDER BY ?medicamento_label, ?apresentacao\n",
+			"RP": {
+				"header": "",
+				"body": " O ?medicamento_label ?apresentacao é de classificação ?tipo_tarja. ?comment",
+				"footer":""
+			}
 		}
 
 	]
