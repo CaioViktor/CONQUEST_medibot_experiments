@@ -1,0 +1,81 @@
+pattern,class
+quais medicamentos possuem o princípio ativo $qai_0_principioAtivo1?,0
+o $qai_0_principioAtivo1 é o princípio ativo de quais medicamentos?,0
+indique medicamentos com a substancia $qai_0_principioAtivo1,0
+retorne remédio a base de $qai_0_principioAtivo1,0
+quero saber o medicamentos com $qai_0_principioAtivo1,0
+Quais medicamentos possuem a substância $qai_0_principioAtivo1?,0
+retorne os medicamentos com princípios ativos $qai_0_principioAtivo1,0
+Busque os mdedicamentos com o $qai_0_principioAtivo1,0
+Quais medicamentos possuem a substancia $qai_0_principioAtivo1,0
+Rertorne medicamentos que contenham a substancia $qai_0_principioAtivo1,0
+quero saber a definção de $qai_1_termo_in2,1
+O que significa $qai_1_termo_in2,1
+defina $qai_1_termo_in2,1
+fale sobre $qai_1_termo_in2,1
+me diga o que é um $qai_1_termo_in2,1
+explique o que é $qai_1_termo_in2,1
+o que é um $qai_1_termo_in2,1
+qual é a definição de $qai_1_termo_in2,1
+você poderia me falar sobre $qai_1_termo_in2,1
+busque a definição de $qai_1_termo_in2,1
+Fale sobre o medicamento $qai_2_medicamento_in,2
+O que você sabe sobre o remédio $qai_2_medicamento_in,2
+Pesquise informações sobre o medicamento $qai_2_medicamento_in,2
+Quais dados você sabe sobre o remédio $qai_2_medicamento_in,2
+você poderia me falar sobre o medicameno $qai_2_medicamento_in?,2
+O que você sabe sobre o remédio $qai_2_medicamento_in,2
+Pesquise informações sobre o medicamento $qai_2_medicamento_in,2
+Me informe sobre o medicamento $qai_2_medicamento_in,2
+Quais dados você sabe sobre o remédio $qai_2_medicamento_in,2
+você poderia me falar sobre o medicameno $qai_2_medicamento_in?,2
+Quais são os riscos do medicamento $qai_3_medicamento_in?,3
+Quais são os riscos do remédio $qai_3_medicamento_in?,3
+fale sobre os riscos do $qai_3_medicamento_in,3
+devo ter algum cuidado ao tomar o medicamento $qai_3_medicamento_in?,3
+Cite possívei motivos para não tomar o medicamento $qai_3_medicamento_in,3
+O remédio $qai_3_medicamento_in tem algum risco?,3
+Posso tomar o medicamento $qai_3_medicamento_in?,3
+Cite possívei motivos para não tomar o medicamento $qai_3_medicamento_in,3
+Quais as contra-indicações do $qai_3_medicamento_in?,3
+Em que casos o medicamento $qai_3_medicamento_in é contraindicado,3
+Quais são as apresentações do medicamento $qai_4_medicamento_in?,4
+Liste as apresentações do medicamento $qai_4_medicamento_in,4
+Diga quais são as apresentações do medicamento $qai_4_medicamento_in,4
+Em quais formatos eu posso comprar o medicamento $qai_4_medicamento_in?,4
+O medicamento $qai_4_medicamento_in pode ser encontrado em quais apresentações,4
+Me diga as apresentações do remédio $qai_4_medicamento_in?,4
+Quais apresentações estão disponíveis para o medicamento $qai_4_medicamento_in?,4
+Em quais apresentações eu posso comprar o remédio $qai_4_medicamento_in?,4
+Me dê as apresentações do medicamento $qai_4_medicamento_in?,4
+O medicamento $qai_4_medicamento_in pode ser encontrado em quais apresentações,4
+Retorne as informações sobre o medicamento com o código de barras $qai_5_ean_in,5
+Fale sobre a apresentação com o código de barras $qai_5_ean_in,5
+O que você sobre sobre o medicamento de código de barras $qai_5_ean_in,5
+Fale sobre a apresentação com o ean $qai_5_ean_in,5
+Você pode me dar informações sobre a apresentação com código de barras $qai_5_ean_in,5
+Retorne as informações sobre o medicamento de ean $qai_5_ean_in,5
+Fale sobre a apresentação com o ean $qai_5_ean_in,5
+O que você sobre sobre o medicamento de ean $qai_5_ean_in,5
+Você pode me dar informações sobre a apresentação com código de barras $qai_5_ean_in,5
+Busque uma apresentação pelo código de barras $qai_5_ean_in,5
+Fale sobre a apresentação com o código de barras $qai_6_ean_in em $qai_6_localidade_in,6
+O que você sobre sobre o medicamento de código de barras $qai_6_ean_in em $qai_6_localidade_in,6
+Me dê informações sobre o código $qai_6_ean_in em $qai_6_localidade_in,6
+Retorne as informações sobre o medicamento de ean $qai_6_ean_in em $qai_6_localidade_in,6
+Fale sobre a apresentação com o ean $qai_6_ean_in em $qai_6_localidade_in,6
+Retorne as informações sobre o medicamento de ean $qai_6_ean_in em $qai_6_localidade_in,6
+Fale sobre a apresentação com o ean $qai_6_ean_in em $qai_6_localidade_in,6
+O que você sobre sobre o medicamento de ean $qai_6_ean_in em $qai_6_localidade_in,6
+Você pode me dar informações sobre a apresentação com código de barras $qai_6_ean_in em $qai_6_localidade_in,6
+Busque uma apresentação pelo código de barras $qai_6_ean_in em $qai_6_localidade_in,6
+quanto custa um $qai_7_medicamento_in?,7
+Qual o preço do $qai_7_medicamento_in?,7
+Me diga os preços das apresentações do medicamento $qai_7_medicamento_in,7
+Quais os preços das apresentações do $qai_7_medicamento_in?,7
+Você poderia me informar os preços máximos do $qai_7_medicamento_in?,7
+Quanto custa um $qai_7_medicamento_in?,7
+Me informe o valor de um $qai_7_medicamento_in,7
+Quais os preços máximos para as apresentações do medicamento?,7
+quais os preços das apresentações do $qai_7_medicamento_in?,7
+Diga os preços de um $qai_7_medicamento_in,7

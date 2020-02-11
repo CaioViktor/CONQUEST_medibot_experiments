@@ -1,0 +1,41 @@
+pattern,class
+quais outro medicamentos possuem o mesmo princípio ativo do $qai_0_principioAtivo1?,0
+me diga os medicamentos que compartilham o princío ativo com o $qai_0_principioAtivo1,0
+quais são as possívei alternativas ao $qai_0_principioAtivo1?,0
+cite os remédios com a mesma substância do $qai_0_principioAtivo1,0
+o $qai_0_principioAtivo1 tem o mesmo princípio ativo de quais medicamentos?,0
+o que é um $qai_1_termo_in2?,1
+descreva um $qai_1_termo_in2,1
+gostaria de saber mais sobre um $qai_1_termo_in2,1
+fale sobre o termo $qai_1_termo_in2,1
+explique o ceiceito $qai_1_termo_in2,1
+dê informações sobre o medicamento $qai_2_medicamento_in,2
+o que você sabe sobre o $qai_2_medicamento_in?,2
+quero saber informações sobre o remédio $qai_2_medicamento_in,2
+fale sobre o medicamento $qai_2_medicamento_in,2
+informe-me sobre o $qai_2_medicamento_in,2
+quais riscos o $qai_3_medicamento_in possui?,3
+posso ter problemas ao tomar o $qai_3_medicamento_in?,3
+o medicamento $qai_3_medicamento_in possui contraindicações?,3
+é seguro tomar o $qai_3_medicamento_in?,3
+quais são os riscos do $qai_3_medicamento_in?,3
+quais são as apresentações do medicamento $qai_4_medicamento_in?,4
+em quais apresentações o $qai_4_medicamento_in pode ser encontrado,4
+em quais formatos o $qai_4_medicamento_in está dinsponível?,4
+quais são as diferetes apresentações do $qai_4_medicamento_in?,4
+quais são as variações do remédio $qai_4_medicamento_in disponíveis para a compra?,4
+fale sobre o medicamento com o código de barras $qai_5_ean_in,5
+quero informações sobre o remédio com o código $qai_5_ean_in,5
+o que você sabe sobre o código de barras $qai_5_ean_in?,5
+o que é o produto com código $qai_5_ean_in?,5
+explique o medicamento com código $qai_5_ean_in,5
+qual o preço máximo para o produto de código $qai_6_ean_in na localidade $qai_6_localidade_in,6
+qual o maior preço permitido para o remédio com código de barras $qai_6_ean_in aqui em $qai_6_localidade_in?,6
+qual é maior valor que o medicamento de código $qai_6_ean_in pode custar em $qai_6_localidade_in?,6
+gostaria de saber o custo máximo permitido para o medicamento com código de barras $qai_6_ean_in,6
+quanto é o máximo que devo paragar o remédio com o código de barras $qai_6_ean_in na região da $qai_6_localidade_in?,6
+quais o preços das apresentações do $qai_7_medicamento_in,7
+quanto custa cada apresentação do medicamento $qai_7_medicamento_in?,7
+quanto eu pagaria em cada apresentação do remédio $qai_7_medicamento_in?,7
+diga os preços das apresentações do $qai_7_medicamento_in,7
+por quanto sai cada apresentação do $qai_7_medicamento_in,7
